@@ -24,10 +24,10 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  john:
+  vipin:
     name: Vipin Kumar M
     display_name: Vipin Kumar M
-    avatar: 'assets/images/john.png'
+    avatar: 'assets/images/vipin.png'
     email: Vipin.Madhaan@gmail.com
     web: https://www.imadhaan.com
     twitter: https://twitter.com/VipinMadhaan
@@ -36,7 +36,7 @@ authors:
 # Social
 social:
   twitter: https://twitter.com/VipinMadhaan
-  linkedin: https://linkedin.com/VipinMadhaan
+  linkedin: https://linkedin.com/in/VipinMadhaan
   github: https://github.com/VipinMadhaan
 
 # Plugins
