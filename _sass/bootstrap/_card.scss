@@ -35,7 +35,7 @@
     max-width: 25%;
   }
   .card-block {
-    margin-bottom: 75%;
+    max-width: 75%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -43,7 +43,7 @@
     max-width: 100%;
   }
   .card-block {
-    margin-bottom: 100%;
+    max-width: 100%;
   }
 }
 .card-body {
