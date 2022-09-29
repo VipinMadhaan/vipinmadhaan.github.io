@@ -56,6 +56,10 @@
   .card {
     flex-direction: column;
   }
+  .posts {
+    margin-left: -7px;
+    margin-right: -7px;
+  }
 }
 .card-body {
   // Enable `flex-grow: 1` for decks and groups so that card blocks take up
