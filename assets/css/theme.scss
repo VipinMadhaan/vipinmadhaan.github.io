@@ -47,6 +47,12 @@ body {
   .container {
     padding: 0px;
   }
+  .navbar-brand {
+    margin-right: 0.5rem;
+  }
+  .text-muted {
+    margin-left: 0.5rem !important;
+  }
 }
 main {
   min-height: 500px;
