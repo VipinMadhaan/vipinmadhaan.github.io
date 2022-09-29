@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: '/about/'
-image: assets/images/screenshot.png
+image: assets/images/vipin.png
 ---
 
 Let me teach you how to become better web developer
