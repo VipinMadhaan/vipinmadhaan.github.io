@@ -5,7 +5,7 @@
 .card {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-width: 0;
   word-wrap: break-word;
   background-color: $card-bg;
@@ -30,7 +30,22 @@
     }
   }
 }
-
+@media only screen and (min-width: 768px) {
+  .card-image {
+    max-width: 25%;
+  }
+  .card-block {
+    margin-bottom: 75%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card-image {
+    max-width: 100%;
+  }
+  .card-block {
+    margin-bottom: 100%;
+  }
+}
 .card-body {
   // Enable `flex-grow: 1` for decks and groups so that card blocks take up
   // as much space as possible, ensuring footers are aligned to the bottom.
@@ -92,7 +107,6 @@
   }
 }
 
-
 //
 // Header navs
 //
@@ -135,7 +149,6 @@
   @include border-bottom-radius($card-inner-border-radius);
 }
 
-
 // Card deck
 
 .card-deck {
@@ -162,7 +175,6 @@
     }
   }
 }
-
 
 //
 // Card groups
@@ -247,7 +259,6 @@
     }
   }
 }
-
 
 //
 // Columns
