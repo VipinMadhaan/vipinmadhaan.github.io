@@ -3,8 +3,8 @@ email: Vipin.Madhaan@gmail.com
 timezone: 'Asia/Kolkata'
 baseurl: '/'
 permalink: '/:title'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/icons/logo.png'
+favicon: 'assets/images/icons/favicon.ico'
 author: Vipin Kumar M
 paginate: 30
 disqus: 'VipinMadhaan'
@@ -27,7 +27,7 @@ authors:
   VipinMadhaan:
     name: Vipin Kumar M
     display_name: Vipin Kumar M
-    avatar: 'assets/images/vipin.png'
+    avatar: 'assets/images/icons/vipin.png'
     email: Vipin.Madhaan@gmail.com
     web: https://www.imadhaan.com
     twitter: https://twitter.com/VipinMadhaan
