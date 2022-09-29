@@ -27,7 +27,7 @@
   > .container,
   > .container-fluid {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
