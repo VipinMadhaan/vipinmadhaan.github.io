@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Red Riding Hood'
-author: vipin
+author: VipinMadhaan
 categories: [Jekyll, tutorial]
 image: assets/images/jsfull.png
 ---

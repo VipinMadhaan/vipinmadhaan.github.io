@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'We all wait for summer'
-author: vipin
+author: VipinMadhaan
 categories: [Jekyll, tutorial]
 image: assets/images/jsfull.png
 ---

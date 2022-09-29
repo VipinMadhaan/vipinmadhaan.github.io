@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Tree of Codes'
-author: vipin
+author: VipinMadhaan
 categories: [Jekyll, tutorial]
 image: assets/images/jsfull.png
 ---
