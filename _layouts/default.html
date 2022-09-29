@@ -41,7 +41,10 @@
     <div class="navigation-wrap start-header start-style">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand text-dark font-weight-bold big d-flex align-items-center" href="{{site.baseurl}}/">
+          <a
+            class="navbar-brand text-dark font-weight-bold big d-flex align-items-center"
+            href="{{site.baseurl}}/"
+            title="Home">
             {% if site.logo %}
             <img class="mr-2" src="{{site.baseurl}}/{{site.logo}}" alt="logo" width="40" height="40" />
             {% else %}
@@ -53,7 +56,7 @@
           <div class="d-flex align-items-center">
             <span class="ml-3 text-muted small">Follow</span>
 
-            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.twitter}}">
+            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.twitter}}" title="Twitter">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="19"
@@ -66,7 +69,7 @@
               </svg>
             </a>
 
-            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.linkedin}}">
+            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.linkedin}}" title="Linkedin">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="19"
@@ -79,7 +82,7 @@
               </svg>
             </a>
 
-            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.github}}">
+            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.github}}" title="Github">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"

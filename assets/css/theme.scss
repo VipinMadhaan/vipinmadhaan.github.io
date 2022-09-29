@@ -547,13 +547,13 @@ ul.tags li a:hover {
 .sidebar {
   font-size: 15px;
 }
-.sidebar h5 {
+.sidebar h1 {
   margin-bottom: 1rem;
   text-align: center;
   position: relative;
   font-weight: 700;
 }
-.sidebar h5 span {
+.sidebar h1 span {
   background-color: #fff;
   position: relative;
   z-index: 2;
@@ -564,7 +564,7 @@ ul.tags li a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.sidebar h5:before {
+.sidebar h1:before {
   margin-bottom: 0;
   position: absolute;
   z-index: 1;
@@ -604,7 +604,6 @@ ul.tags li a:hover {
 .sidebar #mc_embed_signup h2 {
   font-weight: 400;
   font-size: 15px;
-  color: #999;
   margin-bottom: 1rem;
   line-height: 1.5;
   text-align: center;
