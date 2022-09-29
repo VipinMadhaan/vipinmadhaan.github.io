@@ -142,28 +142,6 @@
         flex-flow: row nowrap;
         justify-content: flex-start;
 
-        .navbar-nav {
-          flex-direction: row;
-
-          .dropdown-menu {
-            position: absolute;
-          }
-
-          .dropdown-menu-right {
-            right: 0;
-            left: auto; // Reset the default from `.dropdown-menu`
-          }
-
-          .nav-link {
-            padding-right: 0;
-            padding-left: $navbar-nav-link-padding-x;
-          }
-        }
-
-        .navbar-toggler {
-          display: none;
-        }
-
         .dropup {
           .dropdown-menu {
             top: auto;
@@ -175,6 +153,34 @@
   }
 }
 
+@media (min-width: 768px) {
+  .navbar-collapse {
+    display: flex !important; // stylelint-disable-line declaration-no-important
+    // Changes flex-bases to auto because of an IE10 bug
+    flex-basis: auto;
+  }
+  .navbar-nav {
+    flex-direction: row;
+
+    .dropdown-menu {
+      position: absolute;
+    }
+
+    .dropdown-menu-right {
+      right: 0;
+      left: auto; // Reset the default from `.dropdown-menu`
+    }
+
+    .nav-link {
+      padding-right: 0;
+      padding-left: $navbar-nav-link-padding-x;
+    }
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
 // Navbar themes
 //
 // Styles for switching between navbars with light or dark background.
