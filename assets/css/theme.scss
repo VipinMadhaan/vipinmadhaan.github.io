@@ -713,3 +713,9 @@ span.navigation:before {
   transition: all.3s;
   opacity: 0.8;
 }
+
+.about-img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}

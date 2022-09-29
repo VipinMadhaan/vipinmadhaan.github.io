@@ -3,14 +3,21 @@ layout: default
 ---
 
 <!-- Post Featured Image -->
-{% if page.image %}
+{% if page.image %} {% if page.title == 'about' %}
+<div class="text-center mx-auto mb-5">
+  <img
+    class="featured-image text-center mx-auto rounded about-img"
+    src="{{ site.baseurl }}/{{ page.image }}"
+    alt="{{ page.title }}" />
+</div>
+{% else %}
 <div class="text-center mx-auto mb-5">
   <img
     class="featured-image text-center mx-auto rounded"
     src="{{ site.baseurl }}/{{ page.image }}"
     alt="{{ page.title }}" />
 </div>
-{% endif %}
+{% endif %} {% endif %}
 <!-- End Featured Image -->
 
 <div class="col-lg-8 mx-auto">
