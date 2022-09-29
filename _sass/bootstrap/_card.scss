@@ -36,6 +36,7 @@
   }
   .card-image-inner {
     margin-bottom: 0;
+    height: -webkit-fill-available;
   }
   .card-block {
     max-width: 75%;
