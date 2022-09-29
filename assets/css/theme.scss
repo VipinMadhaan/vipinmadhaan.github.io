@@ -39,6 +39,15 @@ body {
     padding: 0 25px;
   }
 }
+@media (max-width: 480px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    padding: 0px;
+  }
+}
 main {
   min-height: 500px;
 }
