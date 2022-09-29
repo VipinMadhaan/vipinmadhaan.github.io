@@ -9,7 +9,6 @@
 // Navbar position
 // Navbar themes
 
-
 // Navbar
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
@@ -21,7 +20,7 @@
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
   justify-content: space-between; // space out brand from logo
-  padding: $navbar-padding-y $navbar-padding-x;
+  // padding: $navbar-padding-y $navbar-padding-x;
 
   // Because flex properties aren't inherited, we need to redeclare these first
   // few properities so that content nested within behave properly.
@@ -33,7 +32,6 @@
     justify-content: space-between;
   }
 }
-
 
 // Navbar brand
 //
@@ -52,7 +50,6 @@
     text-decoration: none;
   }
 }
-
 
 // Navbar nav
 //
@@ -76,7 +73,6 @@
   }
 }
 
-
 // Navbar text
 //
 //
@@ -86,7 +82,6 @@
   padding-top: $nav-link-padding-y;
   padding-bottom: $nav-link-padding-y;
 }
-
 
 // Responsive navbar
 //
@@ -106,7 +101,7 @@
 
 // Button for toggling the navbar when in its collapsed state
 .navbar-toggler {
-  padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
+  padding: $navbar-toggler-padding-y 0 $navbar-toggler-padding-y $navbar-toggler-padding-x;
   font-size: $navbar-toggler-font-size;
   line-height: 1;
   background-color: transparent; // remove default button style
@@ -130,7 +125,7 @@
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
+  content: '';
   background: no-repeat center center;
   background-size: 100% 100%;
 }
@@ -168,7 +163,7 @@
           }
 
           .nav-link {
-            padding-right: $navbar-nav-link-padding-x;
+            padding-right: 0;
             padding-left: $navbar-nav-link-padding-x;
           }
         }
@@ -180,7 +175,7 @@
         }
 
         .navbar-collapse {
-          display: flex !important;  // stylelint-disable-line declaration-no-important
+          display: flex !important; // stylelint-disable-line declaration-no-important
 
           // Changes flex-bases to auto because of an IE10 bug
           flex-basis: auto;
@@ -200,7 +195,6 @@
     }
   }
 }
-
 
 // Navbar themes
 //
