@@ -1,15 +1,12 @@
 ---
 layout: page
 title: About
-permalink: "/about/"
+permalink: '/about/'
 image: assets/images/screenshot.png
 ---
 
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
+Let me teach you how to become successful online
 
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
+My name is **Vipin Kumar M** and I'm here to share with you my knowledge and experience of over 10 years of monetizing my blog.
 
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
-
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
-
+[Get it here](https://www.imadhaan.com/)
