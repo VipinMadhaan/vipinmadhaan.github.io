@@ -27,7 +27,7 @@
   > .container,
   > .container-fluid {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
   }
@@ -158,12 +158,6 @@
             padding-right: 0;
             padding-left: $navbar-nav-link-padding-x;
           }
-        }
-
-        // For nesting containers, have to redeclare for alignment purposes
-        > .container,
-        > .container-fluid {
-          flex-wrap: nowrap;
         }
 
         .navbar-collapse {
