@@ -1,7 +1,7 @@
 title: 'Vipin Kumar M'
 email: Vipin.Madhaan@gmail.com
 timezone: 'Asia/Kolkata'
-baseurl: '/'
+baseurl: ''
 permalink: '/:title'
 logo: 'assets/images/icons/logo.png'
 favicon: 'assets/images/icons/favicon.ico'
