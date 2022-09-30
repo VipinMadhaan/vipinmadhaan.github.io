@@ -33,9 +33,10 @@
     width: 100%;
     padding: 8px 0;
     border: 1px solid #abb0b2;
+    border-radius: 3px;
   }
   .email-submit {
-    text-transform: none !important;
+    text-transform: none;
     font-weight: 700;
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -58,13 +59,29 @@
     line-height: 0px;
   }
   .preview-submit-button button:hover {
-    cursor: pointer !important;
+    cursor: pointer;
+  }
+  .powered-by-line {
+    color: #231f20;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .powered-by-line img {
+    margin-left: 10px;
+    height: 1.13em;
+    max-height: 1.13em;
   }
 </style>
 <div class="form-container">
-  <form
-    action="https://api.follow.it/subscription-form/eWNjQVNlclB3dGVneWNIc1lHVjUrSVNjVjBobUk3VlFOeFVjNzFpcUU0Y01kLzJtUEtuVlpnNllNRTJCOXJGUlZiMFJOa2o2L21FRHo3T2ZNZVoxKzVCRFcwOHA1WUtpYm9QZ2FyNXZ1QklnWXMrQWJlY1owQ2NGTUJyWTlxMkd8VGhmQTNDTHVwNVBudVZ3UmZoanlGVDRCN280SmlQSUt4cFNpR1FPelNYVT0=/8"
-    method="post">
+  <form action="https://api.follow.it/subscribe?pub=THl8mHgcavUdEveE5G_gW70DbjtVxlC9" method="post" target="_blank">
     <div class="form-preview">
       <div class="preview-heading">
         <label><h5 class="follow-h5">Sign up to get blog posts directly in your email box</h5></label>
@@ -77,4 +94,7 @@
       </div>
     </div>
   </form>
+  <a href="https://follow.it/s/tfEy" class="powered-by-line">
+    Powered by <img src="https://follow.it/static/img/colored-logo.svg" alt="follow.it" height="17px" />
+  </a>
 </div>
