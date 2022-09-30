@@ -1,8 +1,8 @@
 [![GitHub workflow](https://github.com/VipinMadhaan/vipinmadhaan.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/VipinMadhaan/vipinmadhaan.github.io/actions/workflows/pages/pages-build-deployment)
 
-# Vipin Kumar M Portfolio Website
+# My Portfolio Website
 
-Hi 👋 This is the code of [my personal portfolio website](<[ivipin.com](https://ivipin.com)>) where you can find all my blog posts and private projects and other information about me.
+Hi 👋 This is the code of my personal portfolio website([ivipin.com](https://ivipin.com)) where you can find all my blog posts and private projects and other information about me.
 
 ## Used Technologies
 
