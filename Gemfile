@@ -18,7 +18,7 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
+    gem 'jekyll-mentions'
     gem 'tzinfo-data'
     gem 'tzinfo'
 end
-gem "webrick", "~> 1.7"
