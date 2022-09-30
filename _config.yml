@@ -21,6 +21,7 @@ sass:
   sass_dir: _sass
   style: 'compressed'
 ganalytics: GTM-TS9R24Q
+jekyll-mentions: https://twitter.com/VipinMadhaan
 
 # Authors
 authors:
@@ -31,7 +32,7 @@ authors:
     email: Vipin.Madhaan@gmail.com
     web: https://www.imadhaan.com
     twitter: https://twitter.com/VipinMadhaan
-    description: 'This is the author box. Write a short description of the author here.'
+    description: 'I am a passionate full stack developer from India. I write about web development technologies and learn how to become a better developer.'
 
 # Social
 social:
