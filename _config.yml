@@ -7,7 +7,6 @@ logo: 'assets/images/icons/logo.png'
 favicon: 'assets/images/icons/favicon.ico'
 author: Vipin Kumar M
 paginate: 30
-disqus: 'VipinMadhaan'
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -21,7 +20,6 @@ sass:
   sass_dir: _sass
   style: 'compressed'
 ganalytics: GTM-TS9R24Q
-jekyll-mentions: https://twitter.com/VipinMadhaan
 
 # Authors
 authors:
@@ -47,4 +45,3 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-mentions
