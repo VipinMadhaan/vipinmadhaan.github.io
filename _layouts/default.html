@@ -123,19 +123,38 @@
       </div>
       <div class="bg-dark" style="width: 30px; height: 1px; margin: 0px auto"></div>
       <div data-network="facebook" class="st-custom-button">
-        <img title="Share on Facebook" width="20" src="/assets/images/icons/fb.svg" alt="Share on Facebook" />
+        <a
+          target="_blank"
+          href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}"
+          onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+          <img title="Share on Facebook" width="20" src="/assets/images/icons/fb.svg" alt="Share on Facebook" />
+        </a>
       </div>
       <div data-network="twitter" class="st-custom-button">
-        <img title="Tweet this" width="20" src="/assets/images/icons/twitter.svg" alt="Tweet this" />
+        <a
+          target="_blank"
+          href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <img title="Tweet this" width="20" src="/assets/images/icons/twitter.svg" alt="Tweet this" />
+        </a>
       </div>
       <div data-network="linkedin" class="st-custom-button">
-        <img title="Share on Linkedin" width="20" src="/assets/images/icons/linkedin.svg" alt="Share on Linkedin" />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}"
+          onclick="window.open(this.href, 'width=550,height=435');return false;">
+          <img title="Share on Linkedin" width="20" src="/assets/images/icons/linkedin.svg" alt="Share on Linkedin" />
+        </a>
       </div>
       <div data-network="reddit" class="st-custom-button">
-        <img title="Share on Reddit" width="20" src="/assets/images/icons/reddit.svg" alt="Share on Reddit" />
+        <a href="http://reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
+          <img title="Share on Reddit" width="20" src="/assets/images/icons/reddit.svg" alt="Share on Reddit" />
+        </a>
       </div>
       <div data-network="email" class="st-custom-button">
-        <img title="E-mail this" width="20" src="/assets/images/icons/email.svg" alt="E-mail this" />
+        <a href="mailto:?Subject={{ page.title }}&Body={{ page.url | absolute_url }}">
+          <img title="E-mail this" width="20" src="/assets/images/icons/email.svg" alt="E-mail this" />
+        </a>
       </div>
     </div>
 
@@ -168,8 +187,5 @@
     <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
     <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
-    <script
-      src="//platform-api.sharethis.com/js/sharethis.js#property=6335dbf2bfbc4500128ccb08&product=sop"
-      async="async"></script>
   </body>
 </html>
