@@ -20,6 +20,8 @@ sass:
   sass_dir: _sass
   style: 'compressed'
 ganalytics: GTM-TS9R24Q
+jekyll-minifier:
+  exclude: 'sitemap.xml'
 
 # Authors
 authors:
@@ -45,3 +47,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-minifier

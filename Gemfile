@@ -18,8 +18,9 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
+    gem 'jekyll-minifier'
     gem 'tzinfo-data'
     gem 'tzinfo'
+    gem "webrick", "~> 1.7"
+    gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets"
 end
-
-gem "webrick", "~> 1.7"
