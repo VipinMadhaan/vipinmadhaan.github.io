@@ -319,6 +319,7 @@ small,
   margin-bottom: 5px;
   margin-top: 10px;
   font-size: 0.95rem;
+  color: #555555;
 }
 .author-meta {
   flex: 1 1 auto;
@@ -458,8 +459,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-  border-color: #ccc;
-  color: #999;
+  border-color: #999;
+  color: #555;
   padding: 3px 10px;
   text-align: center;
   border-radius: 999em;
@@ -726,8 +727,6 @@ span.navigation:before {
   border-radius: 50% !important;
 }
 
-/* stylesheet in the old css fashion */
-
 @media only screen and (min-width: 768px) {
   .stickyshare {
     text-align: center;
@@ -765,6 +764,9 @@ a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #0a0c0d !important;
+}
+.button-link {
+  box-shadow: none !important;
 }
 
 /* PrismJS 1.29.0
@@ -1031,3 +1033,4 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
   color: inherit;
   text-decoration: none;
 }
+/* PrismJS 1.29.0 end */
